@@ -5,7 +5,7 @@ Program for building mathematical graphs and visualizing algorithms.
 ### Main features
 
 * Build graphs (**oriented** or **not oriented**)
-* ==Save== them to file
+* **Save** them to file
 * **Load plugins with graph agorithms** with step-by-step animation
 * **Write your own algorithm** and load it as plugin
 
