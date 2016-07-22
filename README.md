@@ -42,4 +42,4 @@ Merge edit:
 * Set label text
 
 ## License
-Licensed under GUN GPLv3. See LICENSE file.
+Licensed under GNU GPLv3. See LICENSE file.
