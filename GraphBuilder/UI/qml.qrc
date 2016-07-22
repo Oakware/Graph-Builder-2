@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>AppWindowBasic.qml</file>
+        <file>ImageButton.qml</file>
+        <file>MenuPanel.qml</file>
+        <file>RoundButton.qml</file>
+        <file>GraphViewItem.qml</file>
+        <file>AboutView.qml</file>
+        <file>SettingsView.qml</file>
+        <file>VertexInfoView.qml</file>
+        <file>RibInfoView.qml</file>
+        <file>VertexItem.qml</file>
+        <file>RibItem.qml</file>
+        <file>PluginManagerView.qml</file>
+        <file>modelSort.js</file>
+        <file>VertexIndexDialog.qml</file>
+    </qresource>
+</RCC>

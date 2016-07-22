@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Dijkstra">
+        <file>ResDialog.qml</file>
+        <file>modelSort.js</file>
+    </qresource>
+</RCC>

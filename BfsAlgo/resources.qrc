@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/BFS">
+        <file>ResDialog.qml</file>
+    </qresource>
+</RCC>

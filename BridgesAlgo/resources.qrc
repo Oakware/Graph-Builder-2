@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Bridges">
+        <file>ResDialog.qml</file>
+    </qresource>
+</RCC>
