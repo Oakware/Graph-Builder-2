@@ -95,7 +95,6 @@ Item{
 
 	Menu{				// Menus
 		id: vertexMenu
-
 		MenuItem{
 			text: qsTr("Add rib")
 			iconSource: "qrc:/Functional/Add.png"
@@ -114,6 +113,11 @@ Item{
 		}
 
 		MenuItem{
+			text: qsTr("Edit vertex")
+			onTriggered: additionalFunction()
+		}
+
+		MenuItem{
 			text: qsTr("Remove vertex")
 			iconSource: "qrc:/Functional/Remove.png"
 			onTriggered: graphView.cmRemoveVertex()
@@ -122,6 +126,11 @@ Item{
 
 	Menu{
 		id: ribMenu
+		MenuItem{
+			text: qsTr("Edit rib")
+			onTriggered: additionalFunction()
+		}
+
 		MenuItem{
 			text: qsTr("Remove rib")
 			iconSource: "qrc:/Functional/Remove.png"

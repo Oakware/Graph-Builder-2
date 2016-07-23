@@ -1,6 +1,7 @@
 TEMPLATE = app
 
 TARGET = GraphBuilder2
+VERSION = 2.0.2
 ICON = app.icns
 RC_FILE = app.rc
 
