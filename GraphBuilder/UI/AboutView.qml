@@ -66,17 +66,16 @@ Dialog{
 					wrapMode: Text.Wrap
 					horizontalAlignment: Text.AlignHCenter
 
-					text: qsTr( "<b>%1</b><br>" +
-								"<i>version %2</i><br><br>" +
-
-								"Created for building graphs and visualizing algorithms<br>" +
-								"Created by <a href=\"mailto:i.o.kondratuk@gmail.com?Subject=Graph%20Builder\">Ivan Kondratuk</a><br>" +
-								"Links: <a href=\"https://github.com/Oakware/Graph-Builder-2\">Github</a><br><br>" +
+					text: qsTr( "<b>%1</b><br><i>version %2</i>").arg(windowRoot.title).arg("2.0.2") + "<br><br>" +
+						  qsTr( "Created for building graphs and visualizing algorithms") + "<br>" +
+						  qsTr( "Created by <a href=\"mailto:i.o.kondratuk@gmail.com?Subject=Graph%20Builder\">Ivan Kondratuk</a>") + "<br>" +
+						  qsTr( "Links: ") +
+						  qsTr(		"<a href=\"https://github.com/Oakware/Graph-Builder-2\">Github</a>") + ", " +
+						  qsTr(		"<a href=\"https://github.com/Oakware/Graph-Builder-2/wiki\">Tutorial</a>") + "<br><br>" +
 
 								"<i>Licensed under GNU GPLv3<br>" +
 								"Copyright © 2016 <a href=\"https://github.com/Oakware\">Oakware</a><br>" +
-								"All Rights Reserved</i>")
-										.arg(windowRoot.title).arg("2.0.2")
+								"All Rights Reserved</i>"
 
 					onLinkActivated: Qt.openUrlExternally(link)
 				}
