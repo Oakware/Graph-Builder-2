@@ -33,14 +33,14 @@ public:
 
 ///					<InfoProperties>
 public:		// declare
-	Q_PROPERTY(AbstractGraph* graph		READ getGraph		WRITE setGraph		NOTIFY graphChanged)
-	Q_PROPERTY(int selectedVertex		READ getSelectedVertex					NOTIFY vertexSelected)
+	Q_PROPERTY(AbstractGraph*   graph	READ getGraph		WRITE setGraph		NOTIFY graphChanged)
+	Q_PROPERTY(int	   selectedVertex	READ getSelectedVertex					NOTIFY vertexSelected)
 	Q_PROPERTY(QList<int> selectedRib	READ getSelectedRibList					NOTIFY ribSelected)
 
-	Q_PROPERTY(bool editable			READ isEditable		WRITE setEditable	NOTIFY editableChanged)
-	Q_PROPERTY(GVState state			READ getState							NOTIFY stateChanged)
-	Q_PROPERTY(QColor backgroundColor	READ getBackColor	WRITE setBackColor	NOTIFY backColorChanged)
-	Q_PROPERTY(QSize minimumSize		READ getMinimumSize						NOTIFY minimumSizeChanged)
+	Q_PROPERTY(bool		editable		READ isEditable		WRITE setEditable	NOTIFY editableChanged)
+	Q_PROPERTY(GVState	state			READ getState							NOTIFY stateChanged)
+	Q_PROPERTY(QColor	backgroundColor	READ getBackColor	WRITE setBackColor	NOTIFY backColorChanged)
+	Q_PROPERTY(QSize	minimumSize		READ getMinimumSize						NOTIFY minimumSizeChanged)
 
 	enum GVState{Normal, VertexMoving, RibAdd, RibRemove, RibSelect};
 	Q_ENUM(GVState)

@@ -10,15 +10,36 @@
     </message>
     <message>
         <location filename="../UI/AboutView.qml" line="69"/>
-        <source>&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;&lt;i&gt;version %2&lt;/i&gt;&lt;br&gt;&lt;br&gt;Created for building graphs and visualizing algorithms&lt;br&gt;Created by &lt;a href=&quot;mailto:i.o.kondratuk@gmail.com?Subject=Graph%20Builder&quot;&gt;Ivan Kondratuk&lt;/a&gt;&lt;br&gt;Links: &lt;a href=&quot;https://github.com/Oakware/Graph-Builder-2&quot;&gt;Github&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Licensed under GNU GPLv3&lt;br&gt;Copyright © 2016 &lt;a href=&quot;https://github.com/Oakware&quot;&gt;Oakware&lt;/a&gt;&lt;br&gt;All Rights Reserved&lt;/i&gt;</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;&lt;i&gt;версія %2&lt;/i&gt;&lt;br&gt;&lt;br&gt;Створено для побудови графів і візуалізації алгоритмів&lt;br&gt;Створив &lt;a href=&quot;mailto:i.o.kondratuk@gmail.com?Subject=Graph%20Builder&quot;&gt;Іван Кондратюк&lt;/a&gt;&lt;br&gt;Посилання: &lt;a href=&quot;https://github.com/Oakware/Graph-Builder-2&quot;&gt;Github&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Licensed under GNU GPLv3&lt;br&gt;Copyright © 2016 &lt;a href=&quot;https://github.com/Oakware&quot;&gt;Oakware&lt;/a&gt;&lt;br&gt;All Rights Reserved&lt;/i&gt;</translation>
+        <source>&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;&lt;i&gt;version %2&lt;/i&gt;</source>
+        <translation>&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;&lt;i&gt;версія %2&lt;/i&gt;</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Graph builder&lt;/b&gt;&lt;br&gt;version %1&lt;br&gt;Created for building graphs and visualizing algorithms&lt;br&gt;Created by Ivan Kondratuk©</source>
-        <translation type="vanished">&lt;b&gt;Графобудівник&lt;/b&gt;&lt;br&gt;версія %1&lt;br&gt;Створено для побудови графів і візуалізації алгоритмів&lt;br&gt;Створив Іван Кондратюк©</translation>
+        <location filename="../UI/AboutView.qml" line="70"/>
+        <source>Created for building graphs and visualizing algorithms</source>
+        <translation>Створено для побудови графів і візуалізації алгоритмів</translation>
     </message>
     <message>
-        <location filename="../UI/AboutView.qml" line="90"/>
+        <location filename="../UI/AboutView.qml" line="71"/>
+        <source>Created by &lt;a href=&quot;mailto:i.o.kondratuk@gmail.com?Subject=Graph%20Builder&quot;&gt;Ivan Kondratuk&lt;/a&gt;</source>
+        <translation>Створив &lt;a href=&quot;mailto:i.o.kondratuk@gmail.com?Subject=Graph%20Builder&quot;&gt;Іван Кондратюк&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../UI/AboutView.qml" line="72"/>
+        <source>Links: </source>
+        <translation>Посилання: </translation>
+    </message>
+    <message>
+        <location filename="../UI/AboutView.qml" line="73"/>
+        <source>&lt;a href=&quot;https://github.com/Oakware/Graph-Builder-2&quot;&gt;Github&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;https://github.com/Oakware/Graph-Builder-2&quot;&gt;Github&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../UI/AboutView.qml" line="74"/>
+        <source>&lt;a href=&quot;https://github.com/Oakware/Graph-Builder-2/wiki&quot;&gt;Tutorial&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;https://github.com/Oakware/Graph-Builder-2/wiki&quot;&gt;Туторіал&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../UI/AboutView.qml" line="89"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
@@ -71,10 +92,6 @@
         <source>Custom</source>
         <translation>Власний</translation>
     </message>
-    <message>
-        <source>BFS</source>
-        <translation type="obsolete">Пошук в ширину</translation>
-    </message>
 </context>
 <context>
     <name>DfsAlgo</name>
@@ -110,47 +127,53 @@
 <context>
     <name>GraphViewItem</name>
     <message>
-        <source>Graph builder</source>
-        <translation type="vanished">Графобудівник</translation>
-    </message>
-    <message>
         <location filename="../UI/GraphViewItem.qml" line="34"/>
         <source>Graph Builder</source>
         <translation>Графобудівник</translation>
     </message>
     <message>
-        <location filename="../UI/GraphViewItem.qml" line="100"/>
+        <location filename="../UI/GraphViewItem.qml" line="99"/>
         <source>Add rib</source>
         <translation>Додати ребро</translation>
     </message>
     <message>
-        <location filename="../UI/GraphViewItem.qml" line="106"/>
+        <location filename="../UI/GraphViewItem.qml" line="105"/>
         <source>Select rib</source>
         <translation>Вибрати ребро</translation>
     </message>
     <message>
-        <location filename="../UI/GraphViewItem.qml" line="111"/>
-        <location filename="../UI/GraphViewItem.qml" line="126"/>
+        <location filename="../UI/GraphViewItem.qml" line="110"/>
+        <location filename="../UI/GraphViewItem.qml" line="135"/>
         <source>Remove rib</source>
         <translation>Видалити ребро</translation>
     </message>
     <message>
-        <location filename="../UI/GraphViewItem.qml" line="117"/>
+        <location filename="../UI/GraphViewItem.qml" line="116"/>
+        <source>Edit vertex</source>
+        <translation>Редагувати вершину</translation>
+    </message>
+    <message>
+        <location filename="../UI/GraphViewItem.qml" line="121"/>
         <source>Remove vertex</source>
         <translation>Видалити вершину</translation>
     </message>
     <message>
-        <location filename="../UI/GraphViewItem.qml" line="135"/>
+        <location filename="../UI/GraphViewItem.qml" line="130"/>
+        <source>Edit rib</source>
+        <translation>Редагувати ребро</translation>
+    </message>
+    <message>
+        <location filename="../UI/GraphViewItem.qml" line="144"/>
         <source>Add vertex</source>
         <translation>Додати вершину</translation>
     </message>
     <message>
-        <location filename="../UI/GraphViewItem.qml" line="141"/>
+        <location filename="../UI/GraphViewItem.qml" line="150"/>
         <source>Oriented</source>
         <translation>Орієнтований</translation>
     </message>
     <message>
-        <location filename="../UI/GraphViewItem.qml" line="149"/>
+        <location filename="../UI/GraphViewItem.qml" line="158"/>
         <source>Clear</source>
         <translation>Очистити</translation>
     </message>
@@ -453,10 +476,6 @@
 </context>
 <context>
     <name>main</name>
-    <message>
-        <source>Graph builder</source>
-        <translation type="vanished">Графобудівник</translation>
-    </message>
     <message>
         <location filename="../UI/main.qml" line="204"/>
         <source>Do you want to save graph?</source>
