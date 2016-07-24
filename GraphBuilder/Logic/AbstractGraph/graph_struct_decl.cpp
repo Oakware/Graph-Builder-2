@@ -33,9 +33,9 @@ Trib::Trib(const TribInfo &ri):
 }
 
 void Trib::setProperties(const TribInfo &ri){
-	weight = ri.weight;
-	color  = ri.color;
-	text   = ri.text;
+	weight   = ri.weight;
+	color    = ri.color;
+	text     = ri.text;
 	isHidden = ri.hidden;
 }
 

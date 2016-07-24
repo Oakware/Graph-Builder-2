@@ -48,12 +48,12 @@ struct ABrib{
 
 	int from, to;
 
-	inline bool operator==(const ABrib &other){
-		return ((from == other.from) && (to == other.to));
-	}
-
 	inline bool notOrientEqual(const ABrib &other){		// Equal at not oriented graph
 		return ((*this)==other) || ((to == other.from) && (from == other.to));
+	}
+
+	inline bool operator==(const ABrib &other){
+		return ((from == other.from) && (to == other.to));
 	}
 
 	inline bool operator!=(const ABrib &other){

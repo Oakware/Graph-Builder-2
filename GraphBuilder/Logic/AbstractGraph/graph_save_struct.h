@@ -25,9 +25,10 @@
 
 /*
  * Graph save structures:
- *  - Graph model(GraphModel)
- *  - Vector list(VectorListGS)
- *  - Matrix(MatrixGS)
+ *  - Graph model      (GraphModel)
+ *  - Vector list      (VectorListGS)
+ *  - Rib list         (RibListGS)
+ *  - Adjacency matrix (MatrixGS)
 */
 
 #include <QVector>

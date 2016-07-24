@@ -1,12 +1,16 @@
 # Graph Builder 2
-*Curent version: 2.0.2*
+*Current version: 2.0.2* 
 
-Program for building mathematical graphs and visualizing algorithms.
+Program and libruary for building mathematical graphs and visualizing algorithms writed with C++ and Qt.
 
 ![Window](GraphBuilder/Resources/Icons/scr.png?raw=true "Window")
 
 ## Download
-You can download bianry file for **Windows** and **Mac** [here](https://drive.google.com/folderview?id=0B_6lHTRnZzjAWUZhU3JHY0xxQTg&usp=sharing).
+You can download latest release for **Windows** and **Mac** [here](https://drive.google.com/folderview?id=0B_6lHTRnZzjAWUZhU3JHY0xxQTg&usp=sharing).
+
+To find Graph Libruary see [wiki](https://github.com/Oakware/Graph-Builder-2/wiki).
+
+To find older version click [here](https://github.com/Oakware/Graph-Builder).
 
 ## Features
 ### Main features

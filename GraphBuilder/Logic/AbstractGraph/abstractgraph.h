@@ -40,13 +40,13 @@ public:
 
 public: ///		<InfoProperties/>
 	Q_PROPERTY(bool oriented	READ isOriented WRITE setOriented NOTIFY orientChanged)
-	Q_PROPERTY(int vertexCount	READ vertexCount)
-	Q_PROPERTY(int ribCount		READ ribCount)
+	Q_PROPERTY(int  vertexCount	READ vertexCount)
+	Q_PROPERTY(int  ribCount	READ ribCount)
 
-	inline bool isOriented()	const;
-	void		setOriented(bool io);
-	inline int  vertexCount()	const;
-	int			ribCount()		const;
+	inline bool isOriented  ()	const;
+	void		setOriented (bool io);
+	inline int  vertexCount ()	const;
+	int			ribCount	()	const;
 
 private: ///	<Data/>
 	QList <Tvertex*> vertexList;	// < Vertexes <Ribs> >
@@ -55,60 +55,60 @@ private: ///	<Data/>
 
 ///				<Controls>
 public:								// Vertex
-	bool addVertex(int px, int py, const TvertexInfo &vi = TvertexInfo());
-	bool updateVertex(int v, const TvertexInfo &vi);
-	bool moveVertex(int v, int px, int py);
-	bool removeVertex(int v);
+	bool addVertex		(int px, int py, const TvertexInfo &vi = TvertexInfo());
+	bool updateVertex	(int v,			 const TvertexInfo &vi);
+	bool moveVertex		(int v,  int px, int py);
+	bool removeVertex	(int v);
 									// Rib
-	bool addRib(const ABrib r, const TribInfo &ri = TribInfo());
-	bool updateRib(const ABrib r, const TribInfo &ri);
-	bool removeRib(const ABrib r);
+	bool addRib			(const ABrib r, const TribInfo &ri = TribInfo());
+	bool updateRib		(const ABrib r, const TribInfo &ri);
+	bool removeRib		(const ABrib r);
 
 public slots:
 	void clear();
 ///				</Controls>
 
 public: ///		<Convert/>
-	Q_INVOKABLE AbstractGraph *clone()	const;
-	GraphModel	getGraphModel()			const;
-	void		setGraphModel(const GraphModel &gr);
+	Q_INVOKABLE AbstractGraph *clone()				const;
+	GraphModel	getGraphModel	()					const;
+	void		setGraphModel	(const GraphModel &gr);
 
-	TvertexInfo getVertexInfo(int v)		const;
-	TribInfo	getRibInfo(const ABrib &r)	const;
+	TvertexInfo getVertexInfo	(int v)				const;
+	TribInfo	getRibInfo		(const ABrib &r)	const;
 
-	QRect vertexToRound(int v)		const;
-	QLine ribToLine(const ABrib &r)	const;
+	QRect 		vertexToRound	(int v)				const;
+	QLine 		ribToLine		(const ABrib &r)	const;
 
 public: ///		<Search/>
-	int		findVertex(int px, int py, int r = 0, int exept = -1) const;
-	ABrib	findRib(int px, int py, int r = 0) const;
-	inline bool isRibExist(const ABrib &r) const;
+	int			findVertex	(int px, int py, int r = 0, int exept = -1) const;
+	ABrib		findRib		(int px, int py, int r = 0) 				const;
+	inline bool isRibExist	(const ABrib &r) 							const;
 
 private: ///	<Engine/>
-	int findABrib(const ABrib &r) const;
+	int findABrib(const ABrib &r) 						const;
 	int findABrib(const Tvertex &va, const Tvertex &vb) const;
 
 ///				<Signals>
 signals:		// Vertex changes
-	void atVertexAdd(int=0);    void vertexAdded(int=0);
-	void atVertexUpdate(int=0); void vertexUpdated(int=0);
-	void atVertexMove(int=0);   void vertexMoved(int=0);
-	void atVertexRemove(int=0); void vertexRemoved(int=0);
+	void atVertexAdd	(int=0);	void vertexAdded	(int=0);
+	void atVertexUpdate	(int=0);	void vertexUpdated	(int=0);
+	void atVertexMove	(int=0);	void vertexMoved	(int=0);
+	void atVertexRemove	(int=0);	void vertexRemoved	(int=0);
 
 				// Rib changes
-	void atRibAdd(ABrib=ABrib());    void ribAdded(ABrib=ABrib());
-	void atRibUpdate(ABrib=ABrib()); void ribUpdated(ABrib=ABrib());
-	void atRibRemove(ABrib=ABrib()); void ribRemoved(ABrib=ABrib());
+	void atRibAdd	 (ABrib=ABrib());	void ribAdded	(ABrib=ABrib());
+	void atRibUpdate (ABrib=ABrib());	void ribUpdated	(ABrib=ABrib());
+	void atRibRemove (ABrib=ABrib());	void ribRemoved	(ABrib=ABrib());
 
 				// Other changes
-	void atOrientChanged();	void orientChanged();
-	void atClear();			void cleared();
-	void aboutToChange();	void changed();
+	void atOrientChanged ();	void orientChanged	();
+	void atClear		 ();	void cleared		();
+	void aboutToChange	 ();	void changed		();
 ///				</Signals>
 };
 
-bool AbstractGraph::isOriented() const{return oriented;}
-int AbstractGraph::vertexCount() const{return vertexList.count();}
-bool AbstractGraph::isRibExist(const ABrib &r) const{return findABrib(r) >= 0;}
+bool AbstractGraph::isOriented () const{return oriented;}
+int  AbstractGraph::vertexCount() const{return vertexList.count();}
+bool AbstractGraph::isRibExist (const ABrib &r) const{return findABrib(r) >= 0;}
 
 #endif // ABSTRACTGRAPH_H

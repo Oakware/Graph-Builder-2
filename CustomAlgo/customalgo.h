@@ -25,8 +25,6 @@
 
 #include <QObject>
 
-
-
 #include "customalgo_global.h"
 #include "AlgoPlugins/algopluginloader.h"
 #include "AlgoPlugins/sleep.h"

@@ -33,8 +33,15 @@ CustomAlgo::CustomAlgo(QObject *par):
 
 bool CustomAlgo::run(AbstractGraph *gr, int sver){
 	resetGraph(gr, "#9CCC65", params.ri.color);
-	asleep()
+	GraphModel gm = gr->getGraphModel();
 
+//	gm.toMatrix();
+//	gm.toVectorList();
+//	gm.toRibList();
+
+	AG_CHANGE_VER_PARAM((*gr), sver, color, "#000000")
+
+	asleep()
 	result = tr("Finished.");
 	return true;
 }
