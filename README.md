@@ -1,5 +1,3 @@
-![App icon](GraphBuilder/Resources/Icons/app.png?raw=true "App icon")
-
 # Graph Builder 2
 *Curent version: 2.0.2*
 
@@ -8,7 +6,7 @@ Program for building mathematical graphs and visualizing algorithms.
 ![Window](GraphBuilder/Resources/Icons/scr.png?raw=true "Window")
 
 ## Download
-You can download bianry file for Windows and Mac [here](https://drive.google.com/folderview?id=0B_6lHTRnZzjAWUZhU3JHY0xxQTg&usp=sharing).
+You can download bianry file for **Windows** and **Mac** [here](https://drive.google.com/folderview?id=0B_6lHTRnZzjAWUZhU3JHY0xxQTg&usp=sharing).
 
 ## Features
 ### Main features
