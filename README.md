@@ -1,7 +1,11 @@
-# Graph Builder 2.0.2
+![App icon](GraphBuilder/Resources/Icons/app.png?raw=true "App icon")
+
+# Graph Builder 2
+*Curent version: 2.0.2*
+
 Program for building mathematical graphs and visualizing algorithms.
 
-![Window](/Users/ivan/Desktop/Pic/p1.png)
+![Window](GraphBuilder/Resources/Icons/scr.png?raw=true "Window")
 
 ## Download
 You can download bianry file for Windows and Mac [here](https://drive.google.com/folderview?id=0B_6lHTRnZzjAWUZhU3JHY0xxQTg&usp=sharing).
@@ -45,5 +49,7 @@ Merge edit:
 
 **************
 
-## License
+## About
 *Licensed under GNU GPLv3.* See LICENSE file.
+
+Built using **Qt 5.7.0**
