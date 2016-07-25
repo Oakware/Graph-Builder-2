@@ -8,7 +8,7 @@ Program and library for building mathematical graphs and visualizing algorithms 
 ## Download
 You can download latest release for **Windows** and **Mac** [here](https://drive.google.com/folderview?id=0B_6lHTRnZzjAWUZhU3JHY0xxQTg&usp=sharing).
 
-To find Graph Library see [wiki](https://github.com/Oakware/Graph-Builder-2/wiki/Graph-Libruary).
+To find Graph Library see [wiki](https://github.com/Oakware/Graph-Builder-2/wiki/Graph-Library).
 
 To find older version click [here](https://github.com/Oakware/Graph-Builder).
 
