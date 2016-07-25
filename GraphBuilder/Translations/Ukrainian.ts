@@ -31,20 +31,25 @@
     <message>
         <location filename="../UI/AboutView.qml" line="72"/>
         <source>Links: </source>
-        <translation>Посилання: </translation>
+        <translation>Посилання:  </translation>
     </message>
     <message>
         <location filename="../UI/AboutView.qml" line="73"/>
+        <source>&lt;a href=&quot;https://oakware.github.io/Graph-Builder-2&quot;&gt;Project Page&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;https://oakware.github.io/Graph-Builder-2&quot;&gt;Сторінка Проекту&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../UI/AboutView.qml" line="74"/>
         <source>&lt;a href=&quot;https://github.com/Oakware/Graph-Builder-2&quot;&gt;Github&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;https://github.com/Oakware/Graph-Builder-2&quot;&gt;Github&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../UI/AboutView.qml" line="74"/>
+        <location filename="../UI/AboutView.qml" line="75"/>
         <source>&lt;a href=&quot;https://github.com/Oakware/Graph-Builder-2/wiki&quot;&gt;Tutorial&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;https://github.com/Oakware/Graph-Builder-2/wiki&quot;&gt;Туторіал&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../UI/AboutView.qml" line="89"/>
+        <location filename="../UI/AboutView.qml" line="90"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
@@ -199,10 +204,6 @@
         <location filename="../../MinOstKruskalAlgo/minostkruskal.cpp" line="90"/>
         <source>Minimal spanning tree (Kruskal)</source>
         <translation>Мінімальне остовне дерево (Крускаль)</translation>
-    </message>
-    <message>
-        <source>Minimal spanning tree (Prim)</source>
-        <translation type="vanished">Мінімальне остовне дерево (Прім)</translation>
     </message>
 </context>
 <context>

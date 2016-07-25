@@ -70,7 +70,7 @@ Dialog{
 						  qsTr( "Created for building graphs and visualizing algorithms") + "<br>" +
 						  qsTr( "Created by <a href=\"mailto:i.o.kondratuk@gmail.com?Subject=Graph%20Builder\">Ivan Kondratuk</a>") + "<br>" +
 						  qsTr( "Links: ") +
-						  qsTr(		"<a href=\"https://github.com/Oakware/Graph-Builder-2\">Project Page</a>") + ", " +
+						  qsTr(		"<a href=\"https://oakware.github.io/Graph-Builder-2\">Project Page</a>") + ", " +
 						  qsTr(		"<a href=\"https://github.com/Oakware/Graph-Builder-2\">Github</a>") + ", " +
 						  qsTr(		"<a href=\"https://github.com/Oakware/Graph-Builder-2/wiki\">Tutorial</a>") + "<br><br>" +
 
