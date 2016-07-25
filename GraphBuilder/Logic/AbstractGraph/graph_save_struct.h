@@ -51,20 +51,21 @@ typedef QVector <RLGraphItem> RibListGS;
 typedef QVector< QVector<int> > MatrixGS;
 
 ///			<GraphModel/>
-struct GraphModel{
+class GraphModel{
+public:
 	GraphModel(): oriented(false){}
 
 	bool oriented;
-	QVector <TvertexInfo> vertexes;
-	QVector <TribInfo> ribs;
+	QVector <TvertexInfo>	vertexes;
+	QVector <TribInfo>		ribs;
 
-	VectorListGS toVectorList();
-	RibListGS toRibList();
-	MatrixGS toMatrix();
+	VectorListGS	toVectorList();
+	RibListGS		toRibList	();
+	MatrixGS		toMatrix	();
 };
 
 ///			<IO/>
 QDataStream &operator<<(QDataStream &, const GraphModel &);
-QDataStream &operator>>(QDataStream &, GraphModel &);
+QDataStream &operator>>(QDataStream &,		 GraphModel &);
 
 #endif // GRAPH_SAVE_STRUCT_H

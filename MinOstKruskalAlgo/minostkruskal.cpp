@@ -20,6 +20,7 @@
  * along with Graph Builder.  If not, see <http://www.gnu.org/licenses/>.
  *****************************************************************************/
 
+#include "minostkruskal.h"
 #include "AlgoPlugins/graphreset.h"
 #include <algorithm>
 using namespace std;

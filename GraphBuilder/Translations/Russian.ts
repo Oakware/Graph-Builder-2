@@ -14,6 +14,11 @@
         <translation>&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;&lt;i&gt;версия %2&lt;/i&gt;</translation>
     </message>
     <message>
+        <location filename="../UI/AboutView.qml" line="69"/>
+        <source>Graph Builder</source>
+        <translation>Графопостроитель</translation>
+    </message>
+    <message>
         <location filename="../UI/AboutView.qml" line="70"/>
         <source>Created for building graphs and visualizing algorithms</source>
         <translation>Создано для построения графов и визуализации алгоритмов</translation>
@@ -83,12 +88,12 @@
 <context>
     <name>CustomAlgo</name>
     <message>
-        <location filename="../../CustomAlgo/customalgo.cpp" line="38"/>
+        <location filename="../../CustomAlgo/customalgo.cpp" line="45"/>
         <source>Finished.</source>
         <translation>Закончено.</translation>
     </message>
     <message>
-        <location filename="../../CustomAlgo/customalgo.cpp" line="47"/>
+        <location filename="../../CustomAlgo/customalgo.cpp" line="54"/>
         <source>Custom</source>
         <translation>Собственный</translation>
     </message>
@@ -181,21 +186,36 @@
 <context>
     <name>MinOstKruskal</name>
     <message>
-        <location filename="../../MinOstKruskalAlgo/minostkruskal.cpp" line="46"/>
+        <location filename="../../MinOstKruskalAlgo/minostkruskal.cpp" line="47"/>
+        <source>Graph must not be oriented.</source>
+        <translation>Граф не должен быть ориентированым.</translation>
+    </message>
+    <message>
+        <location filename="../../MinOstKruskalAlgo/minostkruskal.cpp" line="81"/>
+        <source>Finished.</source>
+        <translation>Закончено.</translation>
+    </message>
+    <message>
+        <location filename="../../MinOstKruskalAlgo/minostkruskal.cpp" line="90"/>
+        <source>Minimal spanning tree (Kruskal)</source>
+        <translation>Минимальное остовное дерево (Крускаль)</translation>
+    </message>
+    <message>
+        <source>Minimal spanning tree (Prim)</source>
+        <translation type="vanished">Минимальное остовное дерево (Прим)</translation>
+    </message>
+</context>
+<context>
+    <name>MinOstPrim</name>
+    <message>
         <location filename="../../MinOstPrimAlgo/minostprim.cpp" line="47"/>
         <source>Graph must not be oriented.</source>
         <translation>Граф не должен быть ориентированым.</translation>
     </message>
     <message>
-        <location filename="../../MinOstKruskalAlgo/minostkruskal.cpp" line="80"/>
         <location filename="../../MinOstPrimAlgo/minostprim.cpp" line="97"/>
         <source>Finished.</source>
         <translation>Закончено.</translation>
-    </message>
-    <message>
-        <location filename="../../MinOstKruskalAlgo/minostkruskal.cpp" line="89"/>
-        <source>Minimal spanning tree (Kruskal)</source>
-        <translation>Минимальное остовное дерево (Крускаль)</translation>
     </message>
     <message>
         <location filename="../../MinOstPrimAlgo/minostprim.cpp" line="106"/>

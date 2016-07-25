@@ -1,6 +1,6 @@
 TEMPLATE = app
 
-TARGET = GraphBuilder2
+TARGET = "Graph Builder 2"
 VERSION = 2.0.2
 ICON = app.icns
 RC_FILE = app.rc

@@ -27,13 +27,13 @@
 #include "AlgoPlugins/algopluginloader.h"
 #include "AlgoPlugins/sleep.h"
 
-class MINOSTPRIMSHARED_EXPORT MinOstKruskal: public QObject, AlgoInterface{
+class MINOSTPRIMSHARED_EXPORT MinOstPrim: public QObject, AlgoInterface{
 	Q_OBJECT
 	Q_PLUGIN_METADATA(IID AlgoInterface_iid)
 	Q_INTERFACES(AlgoInterface)
 
 public:
-	MinOstKruskal(QObject *par = 0);
+	MinOstPrim(QObject *par = 0);
 
 private:
 	Sleeper *sl;

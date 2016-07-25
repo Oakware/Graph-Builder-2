@@ -37,14 +37,14 @@ VectorListGS GraphModel::toVectorList(){
 }
 
 RibListGS GraphModel::toRibList(){
-	RibListGS gr;
+	RibListGS gr(ribs.count());
 
 	for(int i=0; i<ribs.count(); ++i){
 		RLGraphItem gi;
-		gi.from = ribs[i].from;
-		gi.to = ribs[i].to;
+		gi.from   = ribs[i].from;
+		gi.to     = ribs[i].to;
 		gi.weight = ribs[i].weight;
-		gr << gi;
+		gr[i] = gi;
 	}
 
 	return gr;
@@ -58,7 +58,7 @@ MatrixGS GraphModel::toMatrix(){
 
 	for(int i=0; i<ribs.count(); ++i){
 		if(ribs[i].from > 0 && ribs[i].from <= vertexes.count() &&
-		   ribs[i].to > 0   && ribs[i].to   <= vertexes.count())
+		   ribs[i].to   > 0 && ribs[i].to   <= vertexes.count())
 		{
 			gr[ribs[i].from][ribs[i].to] = ribs[i].weight;
 		}

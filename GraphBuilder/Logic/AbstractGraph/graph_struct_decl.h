@@ -110,9 +110,9 @@ struct TvertexInfo{
 
 ///			<IO/>
 QDataStream &operator<<(QDataStream &, const TribInfo &);
-QDataStream &operator>>(QDataStream &, TribInfo &);
+QDataStream &operator>>(QDataStream &,		 TribInfo &);
 
 QDataStream &operator<<(QDataStream &, const TvertexInfo &);
-QDataStream &operator>>(QDataStream &, TvertexInfo &);
+QDataStream &operator>>(QDataStream &,		 TvertexInfo &);
 
 #endif // GRAPH_STRUCT_DECL_H

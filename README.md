@@ -1,14 +1,14 @@
 # Graph Builder 2
 *Current version: 2.0.2* 
 
-Program and libruary for building mathematical graphs and visualizing algorithms writed with C++ and Qt.
+Program and library for building mathematical graphs and visualizing algorithms wrote with C++ and Qt.
 
 ![Window](GraphBuilder/Resources/Icons/scr.png?raw=true "Window")
 
 ## Download
 You can download latest release for **Windows** and **Mac** [here](https://drive.google.com/folderview?id=0B_6lHTRnZzjAWUZhU3JHY0xxQTg&usp=sharing).
 
-To find Graph Libruary see [wiki](https://github.com/Oakware/Graph-Builder-2/wiki).
+To find Graph Library see [wiki](https://github.com/Oakware/Graph-Builder-2/wiki/Graph-Libruary).
 
 To find older version click [here](https://github.com/Oakware/Graph-Builder).
 
@@ -16,8 +16,10 @@ To find older version click [here](https://github.com/Oakware/Graph-Builder).
 ### Main features
 * Build graphs (**oriented** or **not oriented**)
 * **Save** them to file
-* **Load plugins with graph agorithms** and run with step-by-step animation
+* **Load plugins with graph algorithms** and run with step-by-step animation
 * **Write your own algorithm** and load it as plugin
+
+**Note: To write your own algorithm plugin see [wiki](https://github.com/Oakware/Graph-Builder-2/wiki/Custom-algorithm-plugin).**
 
 ### Algorithms
 * Breadth-first search (BFS)
@@ -26,8 +28,6 @@ To find older version click [here](https://github.com/Oakware/Graph-Builder).
 * Minimum spanning tree (Kruskal)
 * Dijkstra
 * Bridges
-
-**Note: To write your own algorithm plugin see [wiki](https://github.com/Oakware/Graph-Builder-2/wiki).**
 
 ### Editing
 Graph edit:

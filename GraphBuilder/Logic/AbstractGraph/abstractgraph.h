@@ -69,7 +69,7 @@ public slots:
 ///				</Controls>
 
 public: ///		<Convert/>
-	Q_INVOKABLE AbstractGraph *clone()				const;
+	Q_INVOKABLE AbstractGraph*  clone()				const;
 	GraphModel	getGraphModel	()					const;
 	void		setGraphModel	(const GraphModel &gr);
 

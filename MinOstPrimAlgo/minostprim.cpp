@@ -36,13 +36,13 @@ bool cmp(RLGraphItem a, RLGraphItem b){
 	return a.weight < b.weight;
 }
 
-MinOstKruskal::MinOstKruskal(QObject *par):
+MinOstPrim::MinOstPrim(QObject *par):
 	QObject(par)
 {
 	sl = new Sleeper(this);
 }
 
-bool MinOstKruskal::run(AbstractGraph *gr, int sver){
+bool MinOstPrim::run(AbstractGraph *gr, int sver){
 	if(gr->isOriented()){
 		result = tr("Graph must not be oriented.");
 		return true;
@@ -98,22 +98,22 @@ bool MinOstKruskal::run(AbstractGraph *gr, int sver){
 	return true;
 }
 
-void MinOstKruskal::stop(){
+void MinOstPrim::stop(){
 	sl->stop();
 }
 
-QString MinOstKruskal::name(){
+QString MinOstPrim::name(){
 	return tr("Minimal spanning tree (Prim)");
 }
 
-QString MinOstKruskal::qmlDialog(){
+QString MinOstPrim::qmlDialog(){
 	return "qrc:/MinOstPrim/ResDialog.qml";
 }
 
-QString MinOstKruskal::getResult(){
+QString MinOstPrim::getResult(){
 	return result;
 }
 
-void MinOstKruskal::setParams(const plugParams &pp){
+void MinOstPrim::setParams(const plugParams &pp){
 	params = pp;
 }
