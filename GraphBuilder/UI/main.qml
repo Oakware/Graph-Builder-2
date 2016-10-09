@@ -160,9 +160,9 @@ AppWindowBasic{
 	function updateSettings(){
 		appColor = cBridge.getProperty("appColor", "#2196F3")
 
-		graphVI.graphView.editable = cBridge.getProperty("graphView/editable", 1)==1
-		if(cBridge.getProperty("graphView/backAppColor", 0)==1)
-			graphVI.graphView.backgroundColor = Qt.binding(function(){return Qt.lighter(appColor)})
+		graphVI.graphView.editable = cBridge.getProperty("graphView/editable", 1)
+		if(cBridge.getProperty("graphView/backAppColor", 0))
+			graphVI.graphView.backgroundColor = Qt.binding(function(){return Qt.tint(appColor, "#50ffffff")})
 		else
 			graphVI.graphView.backgroundColor = cBridge.getProperty("graphView/backColor", "white")
 

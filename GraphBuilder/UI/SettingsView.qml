@@ -35,8 +35,8 @@ Dialog{
 		langCB.currentIndex = cBridge.getTranslation()
 		speedSlider.value   = 1000 - cBridge.getPluginLoader().algoDelay
 
-		gvEditableCB.checked   = cBridge.getProperty("graphView/editable", 1)==1
-		gvBackAppColCB.checked = cBridge.getProperty("graphView/backAppColor", 0)==1
+		gvEditableCB.checked   = cBridge.getProperty("graphView/editable", 1)
+		gvBackAppColCB.checked = cBridge.getProperty("graphView/backAppColor", 0)
 		gvColorRow.gvBackCol   = cBridge.getProperty("graphView/backColor", "white")
 
 		ribStdWgt.value   = cBridge.getProperty("graphView/stdRib/weight", 10)
@@ -53,18 +53,18 @@ Dialog{
 	}
 
 	function apply(){
-		cBridge.setProperty("appColor", appColor)
+		cBridge.setPropertyColor("appColor", appColor)
 		cBridge.setTranslation(langCB.currentIndex)
 		cBridge.getPluginLoader().algoDelay = 1000 - speedSlider.value
 
-		cBridge.setProperty("graphView/editable", (gvEditableCB.checked)? 1:0)
-		cBridge.setProperty("graphView/backAppColor", (gvBackAppColCB.checked)? 1:0)
-		cBridge.setProperty("graphView/backColor", gvColorRow.gvBackCol)
+		cBridge.setPropertyBool("graphView/editable", gvEditableCB.checked)
+		cBridge.setPropertyBool("graphView/backAppColor", gvBackAppColCB.checked)
+		cBridge.setPropertyColor("graphView/backColor", gvColorRow.gvBackCol)
 
 		cBridge.setProperty("graphView/stdRib/weight", ribStdWgt.value)
-		cBridge.setProperty("graphView/stdRib/color",  gvStdRCRow.stdCol)
+		cBridge.setPropertyColor("graphView/stdRib/color",  gvStdRCRow.stdCol)
 		cBridge.setProperty("graphView/stdVertex/radius", verStdRad.value)
-		cBridge.setProperty("graphView/stdVertex/color",  gvStdVCRow.stdCol)
+		cBridge.setPropertyColor("graphView/stdVertex/color",  gvStdVCRow.stdCol)
 
 		close()
 	}

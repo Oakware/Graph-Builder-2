@@ -26,6 +26,7 @@
 #include <QApplication>
 #include <QDebug>
 #include <QObject>
+#include <QColor>
 #include <QSettings>
 
 #define REGISTER_QML_BRIDGE(MN) qmlRegisterType<QmlBridge>((MN), 1, 0, "CBridge");
@@ -44,11 +45,13 @@ private slots:	/// <OnExit/>
 	void appExit();
 
 public slots:	/// <Controls/>
-	static QString getPlatform();
+	static QString  getPlatform();
 
-	virtual void saveProperties();
-	QVariant getProperty(const QString &k, const QVariant &sv=QVariant());
-	void setProperty(const QString &k, const QVariant &v);
+	virtual void	saveProperties		();
+	QVariant		getProperty			(const QString &k, const QVariant &sv=QVariant());
+	void			setProperty			(const QString &k, const QVariant &v);
+	void			setPropertyBool		(const QString &k, bool v);
+	void			setPropertyColor	(const QString &k, const QColor &v);
 
 signals:
 	void aboutToExit();
