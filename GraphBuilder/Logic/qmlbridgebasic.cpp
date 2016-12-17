@@ -72,3 +72,11 @@ QVariant QmlBridgeBasic::getProperty(const QString &k, const QVariant &sv){
 void QmlBridgeBasic::setProperty(const QString &k, const QVariant &v){
 	config->setValue("UiData/"+k, v);
 }
+
+void QmlBridgeBasic::setPropertyBool(const QString &k, bool v){
+	config->setValue("UiData/"+k, v? 1:0);
+}
+
+void QmlBridgeBasic::setPropertyColor(const QString &k, const QColor &v){
+	config->setValue("UiData/"+k, v.name(QColor::HexArgb));
+}
