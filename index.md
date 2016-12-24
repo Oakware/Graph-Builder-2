@@ -1,5 +1,5 @@
 # Graph Builder 2
-*Current version: 2.0.2* 
+*Current version: 2.1* 
 
 Program and library for building mathematical graphs and visualizing algorithms wrote with C++ and Qt.
 
@@ -54,4 +54,4 @@ Merge edit:
 ## About
 *Licensed under GNU GPLv3.* See LICENSE file.
 
-Built using **Qt 5.7.0**
+Built using **Qt 5.8.0**
