@@ -15,11 +15,12 @@ To find Graph Library see [wiki](https://github.com/Oakware/Graph-Builder-2/wiki
 To find older version click [here](https://github.com/Oakware/Graph-Builder).
 
 ## Features
+
 ### Main features
-* Build graphs (**oriented** or **not oriented**)
-* **Save** them to file
-* **Load plugins with graph algorithms** and run with step-by-step animation
-* **Write your own algorithm** and load it as plugin
+* Build graphs (oriented or not oriented)
+* Save them to file
+* Load plugins with graph algorithms and run with step-by-step animation
+* Write your own algorithm and load it as plugin
 
 **Note: To write your own algorithm plugin see [wiki](https://github.com/Oakware/Graph-Builder-2/wiki/Custom-algorithm-plugin).**
 
