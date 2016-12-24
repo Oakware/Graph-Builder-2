@@ -13,6 +13,7 @@ To find Graph Library see [wiki](https://github.com/Oakware/Graph-Builder-2/wiki
 To find older version click [here](https://github.com/Oakware/Graph-Builder).
 
 ## Features
+
 ### Main features
 * Build graphs (**oriented** or **not oriented**)
 * **Save** them to file
