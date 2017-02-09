@@ -2,7 +2,7 @@ title: Graph Builder 2
 description: Program and library for building mathematical graphs and visualizing algorithms wrote with C++ and Qt
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
 
 gems:
   - jekyll-mentions
